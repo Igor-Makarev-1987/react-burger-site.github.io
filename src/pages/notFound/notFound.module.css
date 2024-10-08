@@ -1,0 +1,16 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - (4rem));
+    flex-direction: column;
+    margin-top: 200px;
+  }
+  
+  .text_red {
+    color: #eb0d0d;
+  }
+  
+  .text_blued {
+    color: #4c4cff;
+  }

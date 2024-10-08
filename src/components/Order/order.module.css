@@ -1,0 +1,105 @@
+.container {
+    width: 568px;
+    height: 64px;
+    position: fixed;
+    top: 800px;
+    /* top: 300px; */
+}
+
+.price {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 36px;
+    color: #F2F2F3;
+}
+
+.pricePosition {
+    display: flex;
+}
+
+.icon {
+    position: fixed;
+    top: 800px;
+    left: 1280px;
+    width: 36px;
+    height: 36px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button {
+    position: fixed;
+    top: 780px;
+    left: 1320px;
+}
+
+.numberOrder {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 120px;
+    color: #F2F2F3;
+}
+
+.identificatorOrder {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #F2F2F3;
+}
+
+.mt2 {
+    margin-top: 20px;
+}
+
+.mt4 {
+    margin-top: 40px;
+}
+
+.borderRadius {
+    width: 100px;
+    height: 100px;
+    background-color: #4C4CFF20;
+    border-radius: 50px;
+}
+
+.iconPosition {
+    position: fixed;
+    top: 582px;
+    left: 990px;
+}
+
+.infoOrder {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F2F2F3;
+}
+
+.mt6 {
+    margin-top: 60px;
+}
+
+.mr3 {
+    margin-right: 70px;
+}
+
+.infoOrderGet {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8585AD;
+}
+
+.heightBlock {
+    height: 580px;
+}

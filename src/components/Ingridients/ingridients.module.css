@@ -1,0 +1,68 @@
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #F2F2F3;
+    margin-top: 40px;
+}
+
+.row {
+    width: 600px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+    cursor: pointer;
+}
+
+.picture {
+    width: 240px;
+    height: 120px;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+}
+
+.product {
+    width: 40%;
+}
+
+.count {
+    display: flex!;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.positionCount {
+    position: relative;
+    width: 16rem;
+    top:0.5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+  }
+
+.link:hover {
+    text-decoration: underline;
+    color: blueviolet;
+    font-size: 14px;
+  }

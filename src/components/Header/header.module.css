@@ -1,0 +1,70 @@
+.layout {
+    width: 96vw;
+    height: 88px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-color: #1C1C21;
+}
+
+.container {
+    /* width: 1240px; */
+    padding-left: 280px;
+    padding-right: 280px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    text-decoration: none;
+}
+
+.button {
+    width: 5px;   
+    display: flex;
+    flex-direction: row; 
+}
+
+.typography {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #57575c;
+    cursor: pointer;
+}
+
+.typography:hover {
+    text-decoration: underline;
+    color:antiquewhite;
+}
+
+.vertical {
+    display: flex;
+    align-items: center;
+}
+
+.pl6 {
+    padding-left: 6px;
+}
+
+.textlink{
+    text-decoration: none;
+}
+
+.active {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.nonactive {
+    color: #aeaeb8;
+    text-decoration: none;
+    
+}
+
+

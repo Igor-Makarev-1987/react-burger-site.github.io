@@ -1,0 +1,12 @@
+.container {
+    min-width: 610px;
+    height: 800px;
+    /* border: 1px solid red; */
+}
+
+.column {
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px 
+}
+
